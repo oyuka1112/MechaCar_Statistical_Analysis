@@ -7,6 +7,13 @@ The below picture shows the multiple linear regression to predict the mpg by veh
 2. If we look at the p value of our multiple linear model, it's 5.35e-11. It's a sufficient to reject our null hypothesis that the slope is 0. Therefore, our slope is not 0.
 3. According to the summary output, the r-squared value in the multiple linear regression model is 0.71 while the p-value remained significant.Therefore, this model predicts the mpg of MechaCar prototypes effectively. 
 
-
+## Summary Statistics on Suspension Coils
+![](https://user-images.githubusercontent.com/64121596/152516284-a301be53-d09f-4224-bfba-565cb388ab49.png)
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? 
+- All over the manufacturing process, it satisfies the requirement that suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Because the variance overall is 62,3.
+- However, in Lot 1, the variance is 98. It barely before the requirement. 
+- In Lot 2, the variance is 7.47, which is very low and good.
+- But in Lot 3, the variance is 170, which doesn't satify the requirement.
+- 
 
 
