@@ -9,7 +9,7 @@ In this challenge, you’ll help Jeremy and the data analytics team do the follo
 2. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
 3. Run t-tests to determine if the manufacturing lots are statistically different from the mean population
 4. Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
-To see the R script: 
+To see the R script: [](https://github.com/oyuka1112/MechaCar_Statistical_Analysis/blob/main/.Rhistory)
 ## Linear Regression to Predict MPG
 The below picture shows the multiple linear regression to predict the mpg by vehicle length, vehicle weight, spoiler angle, ground clearance, and AWD.
 ![](https://user-images.githubusercontent.com/64121596/152512163-d83ab0d5-044d-401b-970e-8a04c466dfb8.png)
@@ -27,7 +27,18 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ## T-Tests on Suspension Coils
 Below image shows the t-test if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 ![](https://user-images.githubusercontent.com/64121596/153243997-c275ffd5-f8df-4bac-a7d0-b115dc616b74.png)
+The true mean accross all the lots are 1498.78. P- value is 0.06, where we fail to reject the null hypothesis that the PSI is statistically different from the mean of 1500. That means the mean is similar to 1500.
 
+### Individual lots
+- Lot 1
+  ![](https://user-images.githubusercontent.com/64121596/153247802-953920f8-1fdc-4c82-9e9b-ca5b90fed6f0.png)
+  The true mean in Lot 1 is 1500 with p value of 1. We can not reject the null hypothesis in this case. Same summary as all lots.
+- Lot 2
+  ![](https://user-images.githubusercontent.com/64121596/153247867-6ff7f75b-01dc-44bd-b97d-1e3024c249f4.png)
+    The true mean in Lot 2 is 1500.2 with p value of 0.6072. We can not reject the null hypothesis in this case. Same summary as all lots.
+- Lot 3
+  ![](https://user-images.githubusercontent.com/64121596/153247935-9b256c98-b643-4499-bf91-04367e3a9038.png)
+    The true mean in Lot 3 is 1496.14 with p value of 0.04. We reject the null hypothesis in this case. That mean is Lot 3 the mean is statistically different from the population mean of 1500.
 
 
 ## Study Design: MechaCar vs Competition
