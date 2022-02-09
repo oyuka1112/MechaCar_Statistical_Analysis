@@ -1,5 +1,15 @@
 # MechaCar_Statistical_Analysis
 - R
+# Overview of the Project
+A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+
+In this challenge, you’ll help Jeremy and the data analytics team do the following:
+
+1. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+2. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+3. Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+4. Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+To see the R script: 
 ## Linear Regression to Predict MPG
 The below picture shows the multiple linear regression to predict the mpg by vehicle length, vehicle weight, spoiler angle, ground clearance, and AWD.
 ![](https://user-images.githubusercontent.com/64121596/152512163-d83ab0d5-044d-401b-970e-8a04c466dfb8.png)
@@ -15,7 +25,8 @@ The design specifications for the MechaCar suspension coils dictate that the var
 - In Lot 2, the variance is 7.47, which is very low and good.
 - But in Lot 3, the variance is 170, which doesn't satify the requirement.
 ## T-Tests on Suspension Coils
-
+Below image shows the t-test if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
+![](https://user-images.githubusercontent.com/64121596/153243997-c275ffd5-f8df-4bac-a7d0-b115dc616b74.png)
 
 
 
